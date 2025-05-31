@@ -9,7 +9,6 @@ async function getWeather() {
   }
 
   try {
-    // Use free API: wttr.in - no key required
     const response = await fetch(`https://wttr.in/${city}?format=j1`);
 
     if (!response.ok) {
@@ -17,8 +16,6 @@ async function getWeather() {
     }
 
     const data = await response.json();
-
-    // Extract current condition and temp in Celsius
     const current = data.current_condition[0];
     weatherResult.innerHTML = `
       <p><strong>City:</strong> ${city}</p>
