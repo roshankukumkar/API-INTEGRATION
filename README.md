@@ -17,3 +17,6 @@ It is built using HTML, CSS, and JavaScript and uses a free weather API called w
 The webpage is responsive, which means it works well on phones, tablets, and computers. It also runs easily in VS Code using the Live Server extension.
 This project helped me learn how to work with APIs and build interactive web pages using real-time data.
 
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/e0f0d35f-ec62-46f1-97d8-ccc7edcb04b7)
